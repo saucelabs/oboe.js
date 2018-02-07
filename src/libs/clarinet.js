@@ -29,7 +29,7 @@ function clarinet(eventBus) {
       emitValueClose       = eventBus(SAX_VALUE_CLOSE).emit,
       emitFail             = eventBus(FAIL_EVENT).emit,
               
-      MAX_BUFFER_LENGTH = 64 * 1024
+      MAX_BUFFER_LENGTH = 64 * 1024 * 100
   ,   stringTokenPattern = /[\\"\n]/g
   ,   _n = 0
   
