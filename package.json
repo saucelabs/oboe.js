@@ -1,5 +1,5 @@
 {
-  "name": "oboe",
+  "name": "@saucelabs/oboe",
   "title": "Oboe.js",
   "version": "2.1.4",
   "description": "Oboe.js reads json, giving you the objects as they are found without waiting for the stream to finish",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jimhigson/oboe.js.git"
+    "url": "https://github.com/saucelabs/oboe.js.git"
   },
   "keywords": [
     "json",
