@@ -4,7 +4,7 @@
 // having a local undefined, window, Object etc allows slightly better minification:
 (function  (window, Object, Array, Error, JSON, undefined ) {
 
-   // v2.1.3-15-g7432b49
+   // v2.1.4-1-gd7a1a1f
 
 /*
 
@@ -556,7 +556,7 @@ function clarinet(eventBus) {
       emitValueClose       = eventBus(SAX_VALUE_CLOSE).emit,
       emitFail             = eventBus(FAIL_EVENT).emit,
               
-      MAX_BUFFER_LENGTH = 64 * 1024
+      MAX_BUFFER_LENGTH = 64 * 1024 * 100
   ,   stringTokenPattern = /[\\"\n]/g
   ,   _n = 0
   
